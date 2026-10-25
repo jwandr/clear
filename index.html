@@ -8,11 +8,21 @@
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="./config.js"></script>
   <style>
-    :root {
-      --forest:#193a32; --forest-2:#2a4c42; --sage:#d6e8cb; --paper:#f7f7f2;
-      --ink:#1c2823; --muted:#66736c; --line:#dce3dc; --white:#fff;
-      --accent:#527b63; --soft:#edf3ea; --warn:#fff3dc; --danger:#8c3d35;
-      --radius:18px; --shadow:0 8px 28px rgba(25,58,50,.07);
+    :root { 
+      --forest: #2b1029;     /* Deep twilight plum (Primary dark background / dominant dark tone) */
+      --forest-2: #48143a;   /* Rich magenta-purple (Secondary deep depth) */
+      --sage: #ff9175;       /* Vibrant coral-peach (Secondary bright fill / soft accent) */
+      --paper: #fff5ee;      /* Soft warm sunset glow cream (Main background) */
+      --ink: #1f0b1e;        /* Midnight purple-black (High-contrast typography) */
+      --muted: #8c6a85;      /* Dusty violet-grey (Subtle text / secondary elements) */
+      --line: #ffdcd3;       /* Soft pink-gold horizon line */
+      --white: #fff;         /* Pure white (For crisp contrast) */
+      --accent: #ff5722;     /* Blazing solar orange (Primary CTA / active accent) */
+      --soft: #ffece2;       /* Warm afternoon sky tint (Card backgrounds / hover states) */
+      --warn: #ffca28;       /* Bright golden hour yellow (Alerts / warnings) */
+      --danger: #d32f2f;     /* Intense sunset crimson (Errors / destructive actions) */
+      --radius: 18px;        /* Unchanged */
+      --shadow: 0 8px 28px rgba(43, 16, 41, .12); /* Tinted with twilight plum for seamless integration */
     }
     * { box-sizing:border-box; }
     body { margin:0; background:var(--paper); color:var(--ink); font:16px/1.5 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
